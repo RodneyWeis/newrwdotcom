@@ -1,0 +1,28 @@
+http://rodneyweis.com/
+
+Development plan:  Blog
+=======================
+
+Technical:
+
+- WordPress 3.6
+- Starkers theme, customized
+- Responsive
+
+Content: 
+
+- Book reviews
+- Development tips
+- Commentary on web dev topics
+- Sublime text / other tool reviews and hints
+
+
+Development plan:  Labs
+=======================
+
+Technical: 
+
+- Internal, or linked / embedded from Codepen.io? (or both)
+- One per page - organization?
+
+
