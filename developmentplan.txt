@@ -26,3 +26,18 @@ Technical:
 - One per page - organization?
 
 
+Development plan:  Site
+=======================
+
+Technical:
+
+- Convert entirety to WordPress?
+
+Content: 
+
+- Add Github logo to list of external sites in header
+
+Design:
+
+- Review use of yellow / red boxes for contact me
+
