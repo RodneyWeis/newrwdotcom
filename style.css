@@ -1,0 +1,230 @@
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,400italic);
+/*********
+ * Reset *
+ *********/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/**********
+ * Global *
+ **********/
+
+body {
+	font-size: 125%;
+	font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif;
+	background: url('images/woven.png');
+	color: #83caff;
+}
+
+/************
+ * Elements *
+ ************/
+
+figure {
+	margin-top: -1rem;
+	display: inline-block;
+}
+
+figcaption {
+	font-size: 135%;
+	color: yellow;
+	padding: 0.5rem 0;
+}
+
+strong {
+	font-weight: inherit;
+	color: red;
+}
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header, footer, nav, section {
+	display: block;
+	clear: both;
+	padding: 0.3em;
+}
+
+section {
+	max-width: 56rem;
+	padding-top: 1.5rem;
+}
+
+header, footer {
+	font-family: 'Oxygen', Helvetica, Arial, sans-serif;
+}
+
+footer {
+	margin-top: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: #83caff;
+}
+
+h1, h2, h3 {
+	font-family: 'Oxygen', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	margin-bottom: 0.5em;
+}
+
+/**************
+ * Navigation *
+ *************/
+
+nav ul {
+	display: block;
+}
+
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0.25em 0;
+	border-right: 1px dotted;
+	border-bottom: 1px dotted;
+}
+
+nav a {
+	font-size: 135%;
+	text-decoration: none;
+	padding: 0.25em 1em;
+}
+
+nav li.selected, nav li:hover {
+	border-right: 1px solid yellow;
+	border-bottom: 1px solid yellow;
+}
+
+nav li.selected a, nav li:hover a {
+	color: yellow;
+}
+
+
+/***********
+ * Classes *
+ ***********/
+
+.floatright {
+	float: right;
+}
+
+.floatleft {
+	float: left;
+}
+
+.contact {
+	display: inline-block;
+	padding: 0.15rem 0.5rem;
+	background: red;
+	color: #000;
+}
+
+.contact:hover {
+	background: yellow;
+}
+
+.logo {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 215%;
+	display: block;
+	float: left;
+	padding: 0.5rem 1rem;
+}
+
+.firstName {
+	background-color: #83caff;
+	color: #222;
+}
+
+.lastName {
+	background-color: transparent;
+	color: #83caff;
+	margin-right: 1rem;
+}
+
+.half {
+	font-size: 125%;
+	background-color: transparent;
+	color: #83caff;
+	color: yellow;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+	float: left;
+}
+
+.social ul {
+	display: block;
+	list-style-type: none;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.social a:hover img {
+	position: relative;
+	top: -3px;
+	/*
+	background: #83caff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 -1px 5px 3px yellow;
+	-moz-box-shadow: 0 -1px 5px 3px yellow;
+	-ms-border-radius: 0 -1px 5px 3px yellow;
+	-o-box-shadow: 0 -1px 5px 3px yellow;
+	box-shadow: 0 -1px 5px 3px yellow;
+	*/
+}
+
+.clear {
+	clear: both;
+}
+
+#mockup, .logo {
+	-webkit-animation-name: fadein;
+	-webkit-animation-duration: 3s;
+	-moz-animation-name: fadein;
+	-moz-animation-duration: 3s;
+	-ms-animation-name: fadein;
+	-ms-animation-duration: 3s;
+	-o-animation-name: fadein;
+	-o-animation-duration: 3s;
+	animation-name: fadein;
+	animation-duration: 3s;
+}
+
+
+@-webkit-keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
+
+@-moz-keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
+
+@-ms-keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
+
+@-o-keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
+
+@keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
