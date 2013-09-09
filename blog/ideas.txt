@@ -2,3 +2,4 @@ Blog ideas
 
 20130905:  Corporate e-mail: using titles / positions instead of names.  (or re-directing names to position).  Pros vs. cons.  
 20130908:  Version control - not just for distributed software engineering.  (Corporate policies, branding guidelines, style manuals, collaborative books)
+20130909:  Article on code / programming languages.  What to focus on in the next three months vs. the next three years...
