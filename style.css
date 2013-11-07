@@ -190,7 +190,7 @@ nav li.selected a, nav li:hover a {
 	clear: both;
 }
 
-#mockup, .logo {
+.logo {
 	-webkit-animation-name: fadein;
 	-webkit-animation-duration: 3s;
 	-moz-animation-name: fadein;
